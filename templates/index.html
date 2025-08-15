@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title>Email Sender App</title>
+</head>
+<body>
+  <h1>Send Bulk Emails</h1>
+  <form method="POST" enctype="multipart/form-data">
+    <label>Sender Email:</label><br>
+    <input type="email" name="sender_email" required><br><br>
+    <label>App Password:</label><br>
+    <input type="password" name="app_password" required><br><br>
+    <label>Email Subject:</label><br>
+    <input type="text" name="subject" required><br><br>
+    <label>CSV File:</label><br>
+    <input type="file" name="csv_file" required><br><br>
+    <label>Delay (seconds between emails):</label><br>
+    <input type="number" name="delay" value="30" min="1"><br><br>
+    <button type="submit">Send Emails</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+  <title>Email Results</title>
+</head>
+<body>
+  <h1>Result</h1>
+  <ul>
+    {% for item in results %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('index') }}">Back</a>
+</body>
+</html>
