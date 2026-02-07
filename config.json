@@ -1,0 +1,9 @@
+{
+    "email_provider": "custom",
+    "gmail_sender_email": null,
+    "gmail_app_password": null,
+    "custom_sender_email": "test@example.com",
+    "custom_password": "secret",
+    "custom_smtp_host": "smtp.test.com",
+    "custom_smtp_port": "587"
+}
